@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
+@import url("https://simooo.ga/pets/fonts/PuppyBellies.ttf");
+@font-face{
+    font-family: Puppy;
+    src: url("../../fonts/PuppyBellies.ttf");
+}
+body {
+    background-image: url("../../images/background.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    min-width: 50%;
+    margin: 0 auto;
+}
+
+a{
+    cursor:pointer;
+}
+
+#header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-family: Puppy, serif;
+    font-size: 5rem;
+    box-shadow: 2px 2px 8px #888888;
+    z-index: 999;
+}
+
+.centerImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    box-shadow: 0px 0px 0px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    box-shadow: 5px 5px 8px #888888;
+}
+
+#petsText {
+    margin-top: 1%;
+    font-weight: 50;
+}
+
+.topnav {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-weight: 50;
+}
+
+.topnav a {
+    color: #e0b2c7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 50;
+    font-family: Puppy, serif;
+}
+
+.topnav a:hover {
+    background-color: #fae0eb;
+    color: #ffffff;
+    font-weight: 50;
+    font-family: Puppy, serif;
+}
+
+.container {
+    position: absolute;
+    font-size: 2rem;
+    top: 100%;
+    width: 100%;
+    color: #e0b2c7;
+    scroll-behavior: smooth;
+    overflow: hidden
+}
+
+.scrolldown,
+.contact {
+    display: inline-block;
+    background-color: #fceff5;
+    top: 100%;
+    width: 100%;
+    position: relative;
+    padding: 5% 0%;
+    scroll-behavior: smooth;
+}
+
+.gallery {
+    display: inline-block;
+    background-color: #f5e3eb;
+    top: 100%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 5% 0%;
+    scroll-behavior: smooth;
+}
+
+.gallery p,
+    {
+    color: #fceff5;
+}
+
+h1,
+p {
+    font-family: Puppy, serif;
+}
+
+a:visited,
+a:link,
+a:active {
+    text-decoration: none !important;
+    color: inherit;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: #8e62a1;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.backarrow {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1;
+    color:#e0b2c7;
+}
+
+.backarrow a:hover {
+    color: #df95b6;
+}
+
+a[href^="/"] {
+    text-decoration: none;
+    color: #d0ebcf;
+    padding: 0% 5%;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    text-shadow: 0px 0px 1px black, 0px 0px 1px black, 0px 0px 1px black, 0px 0px 1px black, 0px 0px 1px black;
+    font-size: 100%;
+}
+#henlo, #gallery{
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
